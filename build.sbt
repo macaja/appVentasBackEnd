@@ -12,6 +12,6 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
-
+libraryDependencies += filters
 
 fork in run := true

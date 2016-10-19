@@ -15,13 +15,23 @@ import java.util.List;
 public class ArticuloRepositorio {
     public void agregarArticulo(Articulo articulo){
         String nombre = articulo.getNombre();
-        String query = "INSERT INTO articulos (`art_nombre`) VALUES (?);";
+        Integer precio = articulo.getPrecio();
+        String descripcion = articulo.getDescripcion();
+        String imagen = articulo.getImagen();
+        Integer cantidad = articulo.getCantidad();
+        Integer categoria = articulo.getCategoria();
+        String query = "INSERT INTO `appVentas`.`articulo` (`art_nombre`, `art_precio`, `art_descripcion`, `art_imagen`, `art_cantidad`, `cat_id`) VALUES (?,?,?,?,?,?);";
         PreparedStatement ps= null;
         Connection con = null;
         try {
             con = new ConexionMySql().obtenerConexion();
             ps = con.prepareStatement(query);
             ps.setString(1,nombre);
+            ps.setInt(2,precio);
+            ps.setString(3,descripcion);
+            ps.setString(4,imagen);
+            ps.setInt(5,cantidad);
+            ps.setInt(6,categoria);
             ps.execute();
             con.close();
         }catch (Exception e){
@@ -31,7 +41,7 @@ public class ArticuloRepositorio {
     }
     public ArrayList<Articulo> obtenerArticulos(){
         ArrayList<Articulo> articulos = new ArrayList<>();
-        String query = "SELECT art_id,art_nombre FROM articulos";
+        String query = "SELECT art_id,art_nombre,art_precio,art_descripcion,art_imagen,art_cantidad,cat_id FROM articulo;";
         Statement st = null;
         ResultSet rs = null;
         Connection con = null;
@@ -42,7 +52,12 @@ public class ArticuloRepositorio {
             while(rs.next()){
                 Integer id = rs.getInt("art_id");
                 String nombre = rs.getString("art_nombre");
-                Articulo articulo = new Articulo(id,nombre);
+                Integer precio = rs.getInt("art_precio");
+                String descripcion = rs.getString("art_descripcion");
+                String imagen = rs.getString("art_imagen");
+                Integer cantidad = rs.getInt("art_cantidad");
+                Integer categoria = rs.getInt("cat_id");
+                Articulo articulo = new Articulo(id,nombre,precio,descripcion,imagen,cantidad,categoria);
                 articulos.add(articulo);
             }
             con.close();

@@ -25,8 +25,8 @@ public class HomeController extends Controller {
     public Result index() {
         return ok(index.render("Your new application is ready."));
     }
-    public Result agregarArticulo(java.lang.String nombre){
-        Articulo articulo = new Articulo(nombre);
+    public Result agregarArticulo(String nombre, Integer precio,String descripcion,String imagen,Integer cantidad,Integer categoria){
+        Articulo articulo = new Articulo(nombre,precio,descripcion,imagen,cantidad,categoria);
         articuloRepositorio.agregarArticulo(articulo);
         return redirect(routes.HomeController.index());
     }

@@ -1,34 +1,7 @@
-New log file opened at Tue Oct 18 14:43:46 COT 2016 by 21179@mauricio
-Taking next connection to: 57215
-New client attempting to connect on port: 33231-57215
-  Address = /127.0.1.1:57215
-This client on port 33231 has uuid 62529be8-9f06-454b-81ad-d628424cb387 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-62529be8-9f06-454b-81ad-d628424cb387
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 57215
+New log file opened at Tue Oct 18 22:56:34 COT 2016 by 1903@mauricio
+Taking next connection to: 45652
+New client attempting to connect on port: 44809-45652
+  Address = /127.0.1.1:45652
+This client on port 44809 has uuid c0df0fd7-5c5e-4ca4-9495-fe540b8a3baf configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-c0df0fd7-5c5e-4ca4-9495-fe540b8a3baf
+Taking next connection to: 45652

@@ -1,5 +1,6 @@
 package repositorios;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import models.Articulo;
 
 import java.sql.Connection;

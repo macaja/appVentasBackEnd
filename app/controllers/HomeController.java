@@ -21,17 +21,10 @@ public class HomeController extends Controller {
      * this method will be called when the application receives a
      * <code>GET</code> request with a path of <code>/</code>.
      */
-    ArticuloRepositorio articuloRepositorio = new ArticuloRepositorio();
+
     public Result index() {
         return ok(index.render("Your new application is ready."));
     }
-    public Result agregarArticulo(String nombre, Integer precio,String descripcion,String imagen,Integer cantidad,Integer categoria){
-        Articulo articulo = new Articulo(nombre,precio,descripcion,imagen,cantidad,categoria);
-        articuloRepositorio.agregarArticulo(articulo);
-        return redirect(routes.HomeController.index());
-    }
-    public Result obtenerArticulos(){
-        List<Articulo> articulos = articuloRepositorio.obtenerArticulos();
-        return ok(toJson(articulos));
-    }
+
+
 }

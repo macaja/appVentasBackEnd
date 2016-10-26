@@ -1,46 +1,16 @@
-New log file opened at Fri Oct 21 00:05:54 COT 2016 by 18377@mauricio
-Taking next connection to: 37681
-New client attempting to connect on port: 48440-37681
-  Address = /127.0.1.1:37681
-This client on port 48440 has uuid bd276596-4dd8-4272-b895-cdae24c34b83 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-bd276596-4dd8-4272-b895-cdae24c34b83
-Taking next connection to: 37681
+New log file opened at Mon Oct 24 15:41:15 COT 2016 by 11034@mauricio
+Taking next connection to: 44331
+New client attempting to connect on port: 55162-44331
+  Address = /127.0.1.1:44331
+This client on port 55162 has uuid 1d6e40b3-9e9e-4cae-970c-50f97e9b8257 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-1d6e40b3-9e9e-4cae-970c-50f97e9b8257
+Taking next connection to: 44331
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
+Taking next connection to: 44331
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
+Taking next connection to: 44331
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 37681
+Taking next connection to: 44331

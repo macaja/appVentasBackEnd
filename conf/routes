@@ -10,8 +10,10 @@ GET     /count                      controllers.CountController.count
 GET     /message                    controllers.AsyncController.message
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /assets/*file                      controllers.Assets.versioned(path="/public", file: Asset)
 
 POST     /articulos/agregarArticulo        controllers.ArticuloController.agregarArticulo
 
-GET       /articulos/obtenerArticulos                controllers.ArticuloController.obtenerArticulos
+GET       /articulos/obtenerArticulos      controllers.ArticuloController.obtenerArticulos
+
+POST      /usuarios/registrarUsuario       controllers.UsuarioController.registrarUsuario

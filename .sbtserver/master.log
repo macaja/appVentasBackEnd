@@ -1,5 +1,5 @@
-New log file opened at Fri Oct 21 00:05:54 COT 2016 by 18377@mauricio
-jvm 18377@mauricio
+New log file opened at Mon Oct 24 15:41:15 COT 2016 by 11034@mauricio
+jvm 11034@mauricio
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b17
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /home/mauricio/Documentos/PlayProjects/intro-play/project, returning: (intro-play-build)
 Loading project definition from /home/mauricio/Documentos/PlayProjects/intro-play/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2c593125, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@1822ae1b, check cycles: false
 
 Initial source changes: 
 	removed:Set()

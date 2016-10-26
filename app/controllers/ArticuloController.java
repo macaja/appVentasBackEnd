@@ -27,12 +27,8 @@ public class ArticuloController extends Controller{
         String imagen = json.get("imagen").asText();
         Integer cantidad = json.get("cantidad").asInt();
         Integer categoria = json.get("categoria").asInt();
-        if(nombre==null || precio==null || descripcion==null || imagen==null || cantidad==null || categoria==null){
-            return  badRequest("Faltan algunos parametros");
-        }else{
-            Articulo articulo = new Articulo(nombre,precio,descripcion,imagen,cantidad,categoria);
-            articuloRepositorio.agregarArticulo(articulo);
-            return ok("Se ingreso el articulo:" + nombre);
-        }
+        Articulo articulo = new Articulo(nombre,precio,descripcion,imagen,cantidad,categoria);
+        articuloRepositorio.agregarArticulo(articulo);
+        return ok("Se ingreso el articulo:" + nombre);
     }
 }
